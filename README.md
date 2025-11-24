@@ -15,6 +15,8 @@ Algorithm
 5.Display the result, handling possible errors (e.g., division by zero)
 
 Code:
+
+```
 def sum(x,y):
     return x+y
 def sub(x,y):
@@ -48,19 +50,23 @@ while True:
     
     else:
         print("Enter a Valid Input")
-
+```
 
 Sample Input and Output:
+
 Example 1:
+```
 Enter choice (1/2/3/4): 1
 Enter first number: 10
 Enter second number: 5
 Result: 15.0
-
+```
 Example 2:
+```
 Enter choice (1/2/3/4): 4
 Enter first number: 10
 Enter second number: 0
 Result: Error: Division by zero
+```
 
 Conclusion:This project helps beginners grasp basic programming ideas like conditional statements, functions, and user input handling. It also allows them to practice fundamental problem-solving skills.
